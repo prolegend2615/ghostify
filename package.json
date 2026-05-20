@@ -1,0 +1,26 @@
+{
+  "name": "ghostify",
+  "version": "1.0.0",
+  "description": "A powerful Discord bot inspired by Dyno and Carl-bot",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ghostify"
+  ],
+  "author": "prolegend2615",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
